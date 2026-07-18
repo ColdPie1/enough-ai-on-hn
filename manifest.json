@@ -6,7 +6,8 @@
   "description": "Auto-hide AI entries on HN.",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/enough-ai-on-hn.svg",
+    "96": "icons/enough-ai-on-hn.svg"
   },
 
   "browser_specific_settings": {
