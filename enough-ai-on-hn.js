@@ -28,8 +28,8 @@ function enoughAIRun() {
     terms = [
         "Agentic",
         "Agent",
-        "Anthropic",
         "AI",
+        "Anthropic",
         "ChatGPT",
         "Claude",
         "Fable",
@@ -38,8 +38,11 @@ function enoughAIRun() {
         "Grok",
         "Kimi",
         "LLM",
+        "Mythos",
         "OpenAI",
         "Opus",
+        "SpaceXAI",
+        "xAI",
     ];
     regex = `\\b(${terms.join("|")})\\b`;
     dbg(`Built regex: "${regex}".`);
@@ -49,6 +52,7 @@ function enoughAIRun() {
     hide_links = document.querySelectorAll("a.hider");
 
     // iterate over submission rows
+    n_stories = 0;
     titlerows = document.querySelectorAll("tr.submission");
     titlerows.forEach((titlerow) => {
         titlespan = titlerow.querySelector("span.titleline");
@@ -62,9 +66,12 @@ function enoughAIRun() {
             if (hide_link != null) {
                 dbg("Found hide link, clicking it.");
                 hide_link.click();
+                n_stories++;
             }
         }
     });
+
+    return n_stories;
 }
 
 (function () {
@@ -77,9 +84,24 @@ function enoughAIRun() {
     dbg("Loading.");
 
     // inject button into page header
+    /*
     main_table = document.querySelectorAll("span.pagetop")[1];
     btn = document.createElement("button");
     btn.innerHTML = "Hide AI stories";
     btn.onclick = enoughAIRun;
     main_table.appendChild(btn);
+    */
+
+    n_stories = enoughAIRun();
+    if (n_stories > 0){
+        // inject hidden stories count into header
+        main_table = document.querySelectorAll("span.pagetop")[1];
+        if (n_stories > 1){
+            s = `${n_stories} AI stories hidden! | `;
+        }else{
+            s = `1 AI story hidden! | `;
+        }
+        hidden_text = document.createTextNode(s);
+        main_table.insertBefore(hidden_text, main_table.firstChild);
+    }
 })();
