@@ -1,9 +1,10 @@
-Enough AI on HN
+
+![Enough AI on HN logo](icons/enough-ai-on-hn-32.png) Enough AI on HN
 ---------------
 
-![Enough AI on HN logo](icons/enough-ai-on-hn-128.png)
+![Firefox logo](icons/firefox-logo-128.png)
 
-![Firefox logo](icons/firefox-logo-128.png) [Get this extension for Firefox.](https://addons.mozilla.org/en-US/firefox/addon/enough-ai-on-hn/)
+[**Get this extension for Firefox.**](https://addons.mozilla.org/en-US/firefox/addon/enough-ai-on-hn/)
 
 I'm tired of reading about AI stuff on Hacker News, so I wrote this browser
 extension to automatically hide AI-related submissions.  When the HN front page
