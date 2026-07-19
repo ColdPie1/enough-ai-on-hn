@@ -32,6 +32,7 @@ function enoughAIRun() {
         "Anthropic",
         "ChatGPT",
         "Claude",
+        "Codex",
         "Fable",
         "Gemini",
         "GPT",
@@ -39,8 +40,10 @@ function enoughAIRun() {
         "Kimi",
         "LLM",
         "Mythos",
+        "Ollama",
         "OpenAI",
         "Opus",
+        "Qwen",
         "SpaceXAI",
         "xAI",
     ];
