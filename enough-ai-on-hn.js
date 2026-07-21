@@ -27,7 +27,7 @@ function enoughAIRun() {
     // build regex
     terms = [
         "Agentic",
-        "Agent",
+        "Agents?",
         "AI",
         "Anthropic",
         "ChatGPT",
@@ -38,7 +38,8 @@ function enoughAIRun() {
         "GPT",
         "Grok",
         "Kimi",
-        "LLM",
+        "LLMs?",
+        "Models?",
         "Mythos",
         "Ollama",
         "OpenAI",
