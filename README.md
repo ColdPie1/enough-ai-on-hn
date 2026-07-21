@@ -1,8 +1,8 @@
 
-![Enough AI on HN logo](icons/enough-ai-on-hn-32.png) Enough AI on HN
+![Enough AI on HN logo](support/enough-ai-on-hn-32.png) Enough AI on HN
 ---------------
 
-![Firefox logo](icons/firefox-logo-128.png)
+![Firefox logo](support/firefox-logo-128.png)
 
 [**Get this extension for Firefox.**](https://addons.mozilla.org/en-US/firefox/addon/enough-ai-on-hn/)
 
