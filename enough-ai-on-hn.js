@@ -5,7 +5,7 @@
 
 function dbg(s) {
     // debug print with prefix
-    console.error("Enough-AI-On-HN: " + s);
+    console.log("Enough-AI-On-HN: " + s);
 }
 
 function searchHideLink(list, term) {
