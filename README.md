@@ -9,8 +9,7 @@
 I'm tired of reading about AI stuff on Hacker News, so I wrote this browser
 extension to automatically hide AI-related submissions.  When the HN front page
 loads, it will automatically click the "Hide" link for every submission with a
-title containing an AI-related keyword. A count of the number of stories hidden
-will be shown in the page header next to your username.
+title containing an AI-related keyword.
 
 If you want to go dig the stories back up after they've been hidden, you can
 use the Hidden link in your HN profile to find all the AI stories that were
