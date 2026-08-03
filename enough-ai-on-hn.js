@@ -97,6 +97,7 @@ function enoughAIRun() {
     main_table.appendChild(btn);
     */
 
+    /*
     n_stories = enoughAIRun();
     if (n_stories > 0){
         // inject hidden stories count into header
@@ -109,4 +110,7 @@ function enoughAIRun() {
         hidden_text = document.createTextNode(s);
         main_table.insertBefore(hidden_text, main_table.firstChild);
     }
+    */
+
+    enoughAIRun();
 })();
