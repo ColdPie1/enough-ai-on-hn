@@ -35,11 +35,13 @@ function enoughAIRun() {
         "Codex\\d*",
         "Fable\\d*",
         "Gemini\\d*",
+        "Gen\\s*AI",
         "GPT\\d*",
         "Grok\\d*",
         "Inference",
         "Kimi\\d*",
         "\\w*LLMs?",
+        "MCPs?",
         "Models?",
         "Mythos",
         "Ollama\\d*",
@@ -47,6 +49,7 @@ function enoughAIRun() {
         "Opus\\d*",
         "Qwen\\d*",
         "SpaceXAI",
+        "Tokens?",
         "xAI",
     ];
     regex = `\\b(${terms.join("|")})\\b`;
