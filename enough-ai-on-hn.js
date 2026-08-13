@@ -44,6 +44,7 @@ function enoughAIRun() {
         "Kimi\\d*",
         "\\w*LLMs?",
         "MCPs?",
+        "Mistral\\d*",
         "Models?",
         "Mythos",
         "Ollama\\d*",
