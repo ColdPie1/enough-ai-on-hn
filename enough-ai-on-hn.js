@@ -36,6 +36,7 @@ function enoughAIRun() {
         "Copilot",
         "Deep\\s*Seek\\d*",
         "Fable\\d*",
+        "Frontier",
         "Gemini\\d*",
         "Gen\\s*AI",
         "GPT\\d*",
