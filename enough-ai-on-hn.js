@@ -42,6 +42,7 @@ function enoughAIRun() {
         "Gen\\s*AI",
         "\\w*GPT\\d*",
         "Grok\\d*",
+        "Harness",
         "Hugging\\s*Face\\d*",
         "Inference",
         "Kimi\\d*",
